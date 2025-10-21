@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+}
+a{
+    text-decoration: none;
+}
+.tab > input[type="radio"] {
+    display: none;
+}
+.tab-content {
+    display: none;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+display: block;
+}
+
